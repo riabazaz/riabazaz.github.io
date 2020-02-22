@@ -1,0 +1,78 @@
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+	font-family: 'Abel';
+	font-weight: 300;
+	padding: 15px;
+	color: #B9B9B9;
+	text-decoration: none;
+}
+#home {
+	float: left;
+	font-size: 50px;
+	padding-left: 30px;
+	color: #2C2C2C;
+
+}
+
+.right {
+	float: right;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-right: 20px;
+
+}
+
+.topnav a:hover {
+  color: #2C2C2C;
+}
+
+.topnav a.active {
+  color: #2C2C2C;
+}
+
+.pic{
+	float:right;
+	height: 400px;
+	width: 45%;
+	padding:20px;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Abel';
+	font-weight: 300;
+	padding: 15px;
+	color: #2C2C2C;
+	margin:0px;
+}
+
+.text {
+	float:left;
+	width: 45%;
+	padding: 20px;
+
+}
+
+h2 {
+	padding-left: 15px;
+	padding-bottom: 20px;
+	font-family: 'Abel';
+	font-weight: 400;
+	margin:0px;
+	font-size: 30px;
+	text-decoration: underline;
+
+}
+
+.project{
+	height:500px;
+}
+
+#btpic{
+	width: 40%;
+	margin-right: 20px;
+}

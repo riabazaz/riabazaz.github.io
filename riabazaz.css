@@ -1,0 +1,68 @@
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+	font-family: 'Abel';
+	font-weight: 300;
+	padding: 15px;
+	color: #B9B9B9;
+	text-decoration: none;
+}
+#home {
+	float: left;
+	font-size: 50px;
+	padding-left: 30px;
+	color: #2C2C2C;
+
+}
+
+.right {
+	float: right;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-right: 20px;
+
+}
+
+.topnav a:hover {
+  color: #2C2C2C;
+}
+
+.topnav a.active {
+  color: #2C2C2C;
+}
+
+.bodytext{
+	font-family: 'Abel';
+	font-weight: 300;
+	padding: 15px;
+	color: #505050;
+	padding-left: 30px;
+	font-size: 20px;
+	float: left;
+	width: 50%;
+}
+
+#hi{
+	font-size: 35px;
+
+}
+
+#fav {
+	 height:25px;
+	 width:25px;
+	 padding-bottom: -10px;
+}
+
+#illus{
+	float: right;
+	width: 45%;
+	padding-top: 35px;
+}
+
+.contact {
+	padding-top: 60px;
+	font-size: 17px;
+}
