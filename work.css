@@ -63,7 +63,7 @@ a {
 	font-family: 'Abel';
 	font-weight: 400;
 	margin:0px;
-	font-size: 30px;
+	font-size: 35px;
 	text-decoration: underline;
 	color:#2C2C2C;
 
@@ -77,4 +77,5 @@ a {
 	width: 40%;
 	margin-right: 20px;
 	border:0;
+	background-color: : none;
 }
