@@ -37,7 +37,8 @@
 .pic{
 	float:right;
 	height: 400px;
-	width: 45%;
+/*	max-width: 40%;
+*/	min-width: 40%
 	padding:20px;
 }
 
