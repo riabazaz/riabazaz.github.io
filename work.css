@@ -77,11 +77,12 @@ a {
 #btpic{
 	min-width: 300px;
 	max-width: 300px;
-	margin-right: 100px;
+	margin-right: 150px;
 	border:0;
 	background-color: : none;
 }
 video {
 	margin-left: 150px;
 	margin-top: 20px;
+	float: left;
 }
