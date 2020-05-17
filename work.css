@@ -37,8 +37,8 @@
 .pic{
 	float:right;
 	height: 400px;
-/*	max-width: 40%;
-*/	min-width: 40%
+	min-width: 677px;
+	max-width: 677px;
 	padding:20px;
 }
 
@@ -75,8 +75,13 @@ a {
 }
 
 #btpic{
-	width: 22%;
+	min-width: 300px;
+	max-width: 300px;
 	margin-right: 100px;
 	border:0;
 	background-color: : none;
+}
+video {
+	margin-left: 150px;
+	margin-top: 20px;
 }
