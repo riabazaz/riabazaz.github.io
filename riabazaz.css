@@ -59,11 +59,12 @@
 
 #illus{
 	float: right;
-	max-width: 45%;
+	max-width: 55%;
 	min-width: 400px;
 	padding-top: 35px;
 	position:fixed;
     bottom:0px;
+    padding-left: 30px;
 }
 
 .contact {
