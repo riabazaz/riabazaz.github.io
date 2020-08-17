@@ -1,3 +1,6 @@
+a { color: inherit; } 
+
+
 
 .topnav {
   overflow: hidden;
@@ -77,21 +80,35 @@ p {
 #btpic{
 	min-width: 300px;
 	max-width: 300px;
-	margin-right: 150px;
+    padding-right:200px;
 	border:0;
 	background-color: : none;
 }
+
+
+#rotatopic{
+	min-width: 600px;
+    max-width: 600px;
+    /* max-height: 400px; */
+    padding-top: 50px;
+    padding-right: 100px;
+    border: 0;
+    float: right;
+}
+
+
+
 video {
-	margin-left: 150px;
 	margin-top: 20px;
 	float: right;
+    padding-right: 100px;
 }
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 400px;
   float: right;
-padding-right  : 50px;
+    padding-right  : 200px;
     padding-top: 20px;
     
 
@@ -122,7 +139,7 @@ padding-right  : 50px;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-margin-right: 58px;
+    margin-right: 208px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
