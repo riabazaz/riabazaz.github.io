@@ -82,7 +82,7 @@ p {
 	max-width: 300px;
     padding-right:200px;
 	border:0;
-	background-color: : none;
+	background-color: none;
 }
 
 
@@ -96,6 +96,15 @@ p {
     float: right;
 }
 
+#tt {
+  min-width: 600px;
+    max-width: 600px;
+    /* max-height: 400px; */
+    padding-top: 50px;
+    padding-right: 100px;
+    border: 0;
+    float: right;
+}
 
 
 video {
@@ -125,7 +134,7 @@ video {
   position: absolute;
   top: 45%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 402px;
   padding: 16px;
   color: white;
   font-weight: bold;
