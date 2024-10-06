@@ -1,5 +1,5 @@
 ---
-title: "Layout: Header Image (Vertical)"
+title: "ria bazaz"
 permalink: /
 layout: home
 categories:
