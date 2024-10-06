@@ -1,0 +1,9 @@
+# main links
+main:
+  - title: "work"
+    url: /work/
+  - title: "resume"
+    target: "_blank"
+    url: https://drive.google.com/file/d/11tIWTN51CdfTGFoKB7hrka3IOiUOLpzv/view?usp=sharing
+  - title: "me"
+    url: /me/

@@ -1,0 +1,23 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    
+    {% unless site.atom_feed.hide %}
+    <li><img class="page__footer-favvy" src="{{ site.baseurl }}/assets/images/black_favicon.png" alt="Description of image">
+    </li>
+    {% endunless %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label %}
+          <li class="page__footer-email"><a rel="nofollow noopener noreferrer">{{ link.label }}</a></li>
+
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>
+

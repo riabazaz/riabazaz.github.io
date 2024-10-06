@@ -1,0 +1,90 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.page__footer {
+  @include clearfix;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  margin-top: 3em;
+  color: $muted-text-color;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+  background-color: $background-color;
+
+  footer {
+    @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    max-width: 100%;
+    padding: 0 1em 1em;
+
+    @include breakpoint($x-large) {
+      // max-width: $x-large;
+    }
+  }
+
+  a {
+    color: #1E1E1E;
+    text-decoration: none;
+
+  
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $muted-text-color;
+  }
+}
+.page__footer-favvy{
+  height: 2em;
+  
+}
+.page__footer-copyright {
+  font-family: "Space Grotesk";
+  font-size: $type-size-7;
+  color: #1E1E1E;
+}
+
+.page__footer-follow {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Space Grotesk";
+    font-size: $type-size-6;
+  }
+
+  li + li:before {
+    content: "";
+    padding-right: 5px;
+  }
+
+  a {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+
+  .social-icons {
+    a {
+      white-space: nowrap;
+    }
+  }
+}
+
+.page__footer-email{
+  float: right;
+}
